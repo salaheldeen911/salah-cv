@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C.V</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+        .devider {
+            width: 100%;
+            height: 1px;
+            background-color: #e0e0e0;
+            margin: 20px 0;
+            display: none;
+        }
+
+        @media only screen and (max-width: 860px) {
+            .devider {
+                display: block;
+            }
+
+            header {
+                flex-direction: column;
+            }
+
+            .contact {
+                align-self: start;
+            }
+
+            .label h2 {
+                margin: 0 auto !important;
+            }
+
+            .label h1 {
+                font-size: 18px !important;
+                margin: 10px auto 0 !important;
+            }
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            min-height: 140px;
+            background-color: #4f4e58;
+            box-shadow: 0px 2px 4px rgb(0 0 0 / 25%);
+            z-index: 1;
+            color: #e8e8e8;
+        }
+
+        .label {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .label h2 {
+            font-size: 29px;
+            margin-bottom: 20px;
+        }
+
+        .label h1 {
+            font-size: 20px;
+            margin-left: 7%;
+        }
+
+        .contact {
+            font-size: 18px;
+        }
+
+        .contact p {
+            margin: 10px;
+        }
+
+        .objective p {
+            line-height: 1.4;
+            text-indent: 7px;
+        }
+
+        .education,
+        .workExperience,
+        .keySkills,
+        .abilities,
+        .projects,
+        .cv,
+        .objective {
+            margin: 20px;
+        }
+
+        .education h4,
+        .workExperience h4,
+        .keySkills h4,
+        .abilities h4,
+        .projects h4,
+        .cv h4 {
+            color: #315576;
+        }
+
+        .education p {
+            margin-top: 10px;
+        }
+
+        .workExperience h5 {
+            font-size: 14px;
+            margin-top: 8px;
+        }
+
+        .workExperience ul,
+        .abilities ul,
+        .projects ul,
+        .cv ul {
+            margin-left: 18px;
+            margin-top: 3px;
+            font-size: 14px;
+        }
+
+        .keySkills .keySkillsContainer {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5px;
+        }
+
+        .keySkills .keySkillsContainer .keySkillsItem {
+            background-color: #315576;
+            color: #e8e8e8;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .abilities ul li,
+        .projects ul li,
+        .cv ul li {
+            margin-top: 7px;
+        }
+
+        .projects h5 {
+            font-size: 15px;
+            margin-top: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="label">
+            <h2>Salah Eldeen Mohamed</h2>
+            <h1>Full-Stack Web Developer</h1>
+        </div>
+
+        <div class="devider"></div>
+
+        <div class="contact">
+            <p><strong>Email:</strong> salah.eldeen.mail@gmail.com</p>
+            <p><strong>Address:</strong> Egypt, Alexandria, Moharam-Bik</p>
+            <p><strong>Phone:</strong> 012-735-42-801</p>
+
+        </div>
+    </header>
+    <main>
+        <div class="objective">
+            <h4>OBJECTIVE</h4>
+            <hr>
+            <p> Seeking a position in a well-established organization as “Internship Software Developer” where I can use my knowledge and skills for the favor of the place to build a perfect application and make a great achievement.
+            </p>
+        </div>
+        <div class="workExperience">
+            <h4>WORK EXPIRIENCES</h4>
+            <hr>
+            <h5><strong>Data entry operator</strong></h5>
+            <ul>
+                <li>At Saudi Airlines company in Saudi Arabia From: 2016 To: 2018</li>
+            </ul>
+
+            <h5><strong>Account assessment</strong></h5>
+            <ul>
+                <li>At Al Qurayyat Privet Scholes company in Saudi Arabia From: 2018 To: 2020</li>
+            </ul>
+        </div>
+
+        <div class="keySkills">
+            <h4>KEY SKILLS</h4>
+            <hr>
+
+            <div class="keySkillsContainer">
+                <div class="keySkillsItem">HTML</div>
+                <div class="keySkillsItem">CSS</div>
+                <div class="keySkillsItem">JavaScript</div>
+                <div class="keySkillsItem">Json</div>
+                <div class="keySkillsItem">Ajax</div>
+                <div class="keySkillsItem">JQuery</div>
+                <div class="keySkillsItem">Php</div>
+                <div class="keySkillsItem">MySQL</div>
+                <div class="keySkillsItem">Laravel</div>
+                <div class="keySkillsItem">Git</div>
+            </div>
+        </div>
+
+        <div class="abilities">
+            <h4>ABILITIES</h4>
+            <hr>
+
+            <ul>
+                <li>Proactive, confident, and with a positive "can-do" attitude.</li>
+                <li>Solid web development experience using PHP, AJAX, MySQL, JavaScript, HTML and CSS.</li>
+                <li>Building PHP websites using PHP based frameworks (Laravel).</li>
+                <li>Testing and validating work produced as part of the development process.</li>
+                <li>Back end development and maintenance of websites using PHP and MySQL.</li>
+                <li>Developing compatible User Interface functionality using jQuery.</li>
+                <li>Developing web sites using MySQL, PHP & other programming tools.</li>
+                <li>Continuously monitoring industry trends, technologies and standards.</li>
+                <li>Ability to work with multi-disciplinary team to convert business needs into technical
+                    specifications</li>
+                <li>Excellent attention to detail both front and back end.</li>
+                <li>Designing, creating, and modifying static web pages following HTML5 specifications.</li>
+                <li>Creating and deploying interactive and mobile-friendly applications using HTML, CSS, JavaScript, Bootstrap, and more.</li>
+            </ul>
+        </div>
+
+        <div class="projects">
+            <h4>PROJECTS</h4>
+            <hr>
+            <h5><strong> Html, Css, Bootstrap, and Javascript template</strong></h5>
+            <ul>
+                <li> Repository: <a
+                        href="https://github.com/salaheldeen911/css-jquery-template">https://github.com/salaheldeen911/css-jquery-template</a>
+                </li>
+                <li> Demo: <a
+                        href="https://salaheldeen911.github.io/css-jquery-template/">https://salaheldeen911.github.io/css-jquery-template/</a>
+                </li>
+            </ul>
+            <h5><strong> Spry Validator Plugin </strong></h5>
+            <ul>
+                <li> Repository: <a
+                        href="https://github.com/salaheldeen911/Spry-Validator-Plugin">https://github.com/salaheldeen911/Spry-Validator-Plugin</a>
+                </li>
+            </ul>
+            <h5><strong> PHP Choices Exams System </strong></h5>
+            <ul>
+                <li> Repository: <a
+                        href="https://github.com/salaheldeen911/php-choices-exams-system">https://github.com/salaheldeen911/php-choices-exams-system</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="education">
+            <h4>EDUCATION</h4>
+            <hr>
+            <p>Bachelor's degree from Faculty of Commerce, Alexandria University, Egypt.</p>
+        </div>
+
+        <div class="cv">
+            <h4>Download PDF C.V</h4>
+            <hr>
+            <ul>
+                <li> Download link: <a href="./C.V.pdf" download="CV"> C.V </a></li>
+            </ul>
+        </div>
+
+    </main>
+
+</body>
+
+</html>
